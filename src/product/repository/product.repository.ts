@@ -1,4 +1,4 @@
-import { Injectable, Res, NotFoundException, HttpStatus } from '@nestjs/common';
+import { Injectable } from '@nestjs/common';
 import { Model } from 'mongoose';
 import { InjectModel } from '@nestjs/mongoose';
 import { Product } from '../interfaces/product.interface';
